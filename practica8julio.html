@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>FIRST-TIME VISITOR?</h1>
+        <span>
+                <strong>Please register below to gain full access to whitepapers, eBooks, podcasts, demos and more.</strong> Field marked with * are required 
+        </span>
+        <div>
+            <label for="First-Name">*First Name</label>
+            <input name="First-Name" type="text" placeholder="Narran" required  >
+        </div>
+        <div>
+            <label for="Last-Name">*Last Name</label>
+            <input name="Last-Name" type="text" placeholder="Porter" required >
+        </div>
+        <div>
+            <label for="Title">*Title</label>
+            <input name="Title" type="text" placeholder="CMO" required>
+        </div>
+        <div>
+            <label for="Company">*Company</label>
+            <input name="Company" type="text"placeholder="UbiOmniCorp" required >
+        </div>
+        <div>
+            <label for="Phone">*Phone</label>
+            <input name="Phone" type="number" placeholder="212-304-3847" required>
+            <div>
+                <span>Please enter in the following format eg.(416) 864-0440 or +1 416 - 864 - 0440 </span>
+            </div>
+        </div>
+        <div>
+            <label for="Email">*Email</label>
+            <input name="Email" type="email" placeholder="narran.porter@ubiomni" required>
+        </div>
+        <div>
+            <label for="Country-Region">*Country Region</label>
+            <select name="Country-Region" id="Country-Region" required>
+                <option value="United-States">United States</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Japón">Japón</option>
+            </select>
+        </div>
+    <!--Preguntar como hacer para que cada pais tenga sus provincias-->
+        <div>
+            <label for="Company-HQ-State/Province">*Company HQ
+                 State/Province</label>
+            <select name="Company-HQ-State/Province" id="Company-HQ-State/Province" required>
+                <option value="New-York">New York</option>
+                <option value="Buenos-Aires">Buenos Aires</option>
+                <option value="Rio-de-Janeiro">Rio de Janeiro</option>
+                <option value="Tokyo">Tokio</option>
+            </select>
+        </div>
+        <div>
+            <label for="Your-industry">*Your industry</label>
+            <select name="Your-industry" id="Your-industry" required>
+                <option value="Technology">Technology</option>
+                <option value="eCommerce">eCommerce</option>
+                <option value="Gastronomy">Gastronomy</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>
